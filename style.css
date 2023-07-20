@@ -1,0 +1,172 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color:hsl(204, 43%, 93%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(204, 43%, 93%);
+}
+.community{
+    width: 480px;
+    height: 160px;
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+h1{
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: hsl(179, 92%, 43%);
+    font-weight: 700;
+}
+h2{
+    font-size: 0.85em;
+    color: hsl(71, 93%, 54%);
+    font-weight: 700;
+}
+.community p{
+    font-size: 0.75em;
+    color: hsl(204, 43%, 73%);
+}
+.sub-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 190px;
+    color: white;
+}
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+    width: 240px;
+    height: 190px;
+    padding:30px;
+    border-bottom-left-radius: 5px;
+}
+h3{
+    font-size: 0.9em;
+}
+h4{
+    font-size: 1.6em;
+}
+.month{
+    font-size: 0.5em;
+    margin-left: 3px;
+    color: hsl(204, 43%, 90%);
+}
+.amount-month p{
+    font-size: 0.75em;
+}
+.btn{
+    width: 100%;
+    height: 35px;
+    font-size: 0.7em;
+    font-weight: 700;
+    background-color: hsl(71, 73%, 54%);
+    border-color: hsl(71, 73%, 54%);
+    color: hsl(71, 73%, 94%);
+}
+.btn:hover{
+    background-color: hsl(71, 73%, 54%);
+    border-color: hsl(71, 73%, 54%);
+    color: hsl(71, 73%, 94%);
+}
+.why-us{
+    background-color: hsl(179, 42%, 53%);
+    width: 240px;
+    height: 190px;
+    padding:30px;
+    border-bottom-right-radius: 5px;
+}
+.why-us h3{
+    margin-bottom: 15px;
+}
+ul{
+    padding-left: 0px;
+}
+li{
+    font-size: 0.62em;
+    list-style: none;
+    color: hsl(204, 43%, 90%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 650px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+        background-color:hsl(204, 43%, 93%);
+    }
+    .community{
+        width: 240px;
+        height: 200px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 20px;
+    }
+    h1{
+        font-size: 0.9em;
+        margin-bottom: 15px;
+    }
+    h2{
+        font-size: 0.68em;
+        margin-bottom: 15px;
+        line-height: 1.2em;
+    }
+    .community p{
+        line-height: 1.9em;
+        font-size: 0.65em;
+    }
+    .sub-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .subscription{
+        width: 240px;
+        height: 185px;
+        border-bottom-left-radius: 0px;
+        padding: 20px;
+    }
+    .why-us{
+        width: 240px;
+        height: 180px;
+        border-bottom-left-radius: 5px;
+        padding: 20px;
+    }
+    h3{
+        font-size: 0.8em;
+        margin-bottom: 15px;
+    }
+    h4{
+        font-size: 1.5em;
+    }
+    .month{
+        font-size: 0.5em;
+    }
+    .btn{
+        margin-top: 3px;
+        height: 40px;
+    }
+    li{
+        font-size: 0.65em;
+    }
+}
